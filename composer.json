@@ -1,0 +1,21 @@
+{
+    "name": "kv3tak/db-manager",
+    "type": "lib",
+    "require": {
+        "dg/mysql-dump": "^1.4",
+	  	"symfony/console": "^3.3",
+        "nette/di": "^2.4"
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ondřej Vaniš",
+            "email": "vanisond@fit.cvut.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kv3tak\\": "src/Kv3tak"
+        }
+    }
+}
