@@ -17,5 +17,6 @@
         "psr-4": {
             "Kv3tak\\": "src/Kv3tak"
         }
-    }
+    },
+    "bin": ["bin/db-manager"]
 }
